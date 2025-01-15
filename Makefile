@@ -3,7 +3,8 @@
 
 SRC_LIBFT_CUSTOM = ./libft_custom/cft_dec_to_hex.c \
 	./libft_custom/cft_length_nbr.c \
-	./libft_custom/cft_putnbr_ui_fd.c
+	./libft_custom/cft_putnbr_ui_fd.c \
+	./libft_custom/ft_strcpy.c
 
 # %***					***% 
 #		FT_PRINTF 
