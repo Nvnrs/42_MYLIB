@@ -1,3 +1,4 @@
 a.out
 .vscode
-# mylib42.h
+mylib42.a
+*.o
