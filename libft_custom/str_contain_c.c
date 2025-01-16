@@ -6,11 +6,11 @@
 /*   By: nveneros <nveneros@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/16 10:54:39 by nveneros          #+#    #+#             */
-/*   Updated: 2025/01/16 10:59:58 by nveneros         ###   ########.fr       */
+/*   Updated: 2025/01/16 11:02:02 by nveneros         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "mylib42.h"
+#include "../mylib42.h"
 
 t_bool	str_contain_c(char *str, char c)
 {
