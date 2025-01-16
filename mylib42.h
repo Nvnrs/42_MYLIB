@@ -6,7 +6,7 @@
 /*   By: nveneros <nveneros@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/15 17:32:04 by nveneros          #+#    #+#             */
-/*   Updated: 2025/01/15 17:34:45 by nveneros         ###   ########.fr       */
+/*   Updated: 2025/01/16 09:07:11 by nveneros         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -113,5 +113,6 @@ unsigned int	cft_length_nbr(long nb);
 void			cft_putnbr_ui_fd(unsigned int nb, int fd);
 char			*cft_dec_to_hex(unsigned long nb, char config);
 void			ft_strcpy(char *dest, char *src);
+char			*cft_strcat_realloc(char *s1, char *s2);
 
 #endif
