@@ -6,7 +6,7 @@
 /*   By: nveneros <nveneros@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/16 10:57:48 by nveneros          #+#    #+#             */
-/*   Updated: 2025/01/16 11:16:44 by nveneros         ###   ########.fr       */
+/*   Updated: 2025/01/16 11:26:37 by nveneros         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,9 +19,9 @@ t_bool	c_is_in_charset(char c, char *charset)
 	i = 0;
 	while (charset[i])
 	{
-		if (c != charset[i])
-			return (FALSE);
+		if (c == charset[i])
+			return (TRUE);
 		i++;
 	}
-	return (TRUE);
+	return (FALSE);
 }
