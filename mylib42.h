@@ -6,7 +6,7 @@
 /*   By: nveneros <nveneros@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/15 17:32:04 by nveneros          #+#    #+#             */
-/*   Updated: 2025/01/16 09:07:11 by nveneros         ###   ########.fr       */
+/*   Updated: 2025/01/16 10:59:37 by nveneros         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -52,7 +52,6 @@ int				treatment_percent(void);
 
 char			*get_next_line(int fd);
 int				ft_strlen_at_c(char *str, char c);
-int				str_contain_c(char *str, char c);
 void			ft_strcat_gnl(char *dest, char *src);
 char			*ft_strdup_gnl(char *str);
 
@@ -114,5 +113,7 @@ void			cft_putnbr_ui_fd(unsigned int nb, int fd);
 char			*cft_dec_to_hex(unsigned long nb, char config);
 void			ft_strcpy(char *dest, char *src);
 char			*cft_strcat_realloc(char *s1, char *s2);
+t_bool			str_contain_c(char *str, char c);
+t_bool			str_contain_charset(char *str, char *charset);
 
 #endif

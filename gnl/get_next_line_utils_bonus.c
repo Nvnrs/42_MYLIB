@@ -6,7 +6,7 @@
 /*   By: nveneros <nveneros@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/11 14:05:43 by nveneros          #+#    #+#             */
-/*   Updated: 2025/01/15 17:28:26 by nveneros         ###   ########.fr       */
+/*   Updated: 2025/01/16 10:55:57 by nveneros         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -42,22 +42,6 @@ char	*ft_strdup_gnl(char *str)
 	}
 	output[i] = '\0';
 	return (output);
-}
-
-int	str_contain_c(char *str, char c)
-{
-	int	i;
-
-	if (str == NULL)
-		return (0);
-	i = 0;
-	while (str[i])
-	{
-		if (str[i] == c)
-			return (1);
-		i++;
-	}
-	return (0);
 }
 
 void	ft_strcat_gnl(char *dest, char *src)
