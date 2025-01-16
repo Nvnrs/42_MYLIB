@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   str_contain_charset.c                              :+:      :+:    :+:   */
+/*   str_contain_only_charset.c                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: nveneros <nveneros@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/16 10:57:48 by nveneros          #+#    #+#             */
-/*   Updated: 2025/01/16 11:02:05 by nveneros         ###   ########.fr       */
+/*   Updated: 2025/01/16 11:10:09 by nveneros         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,7 +26,7 @@ t_bool	c_is_in_charset(char c, char *charset)
 	return (TRUE);
 }
 
-t_bool	str_contain_charset(char *str, char *charset)
+t_bool	str_contain_only_charset(char *str, char *charset)
 {
 	int	i;
 

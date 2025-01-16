@@ -6,7 +6,7 @@
 /*   By: nveneros <nveneros@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/15 17:32:04 by nveneros          #+#    #+#             */
-/*   Updated: 2025/01/16 10:59:37 by nveneros         ###   ########.fr       */
+/*   Updated: 2025/01/16 11:10:17 by nveneros         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -114,6 +114,6 @@ char			*cft_dec_to_hex(unsigned long nb, char config);
 void			ft_strcpy(char *dest, char *src);
 char			*cft_strcat_realloc(char *s1, char *s2);
 t_bool			str_contain_c(char *str, char c);
-t_bool			str_contain_charset(char *str, char *charset);
+t_bool			str_contain_only_charset(char *str, char *charset);
 
 #endif
