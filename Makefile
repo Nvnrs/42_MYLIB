@@ -6,6 +6,8 @@ SRC_LIBFT_CUSTOM = ./libft_custom/cft_dec_to_hex.c \
 	./libft_custom/cft_putnbr_ui_fd.c \
 	./libft_custom/ft_strcpy.c \
 	./libft_custom/cft_strcat_realloc.c \
+	./libft_custom/str_contain_c.c \
+	./libft_custom/str_contain_charset.c \
 
 # %***					***% 
 #		FT_PRINTF 
