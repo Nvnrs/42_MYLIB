@@ -6,7 +6,7 @@
 /*   By: nveneros <nveneros@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/15 17:32:04 by nveneros          #+#    #+#             */
-/*   Updated: 2025/01/16 11:16:29 by nveneros         ###   ########.fr       */
+/*   Updated: 2025/04/08 11:54:44 by nveneros         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,6 +14,7 @@
 # define MYLIB42_H
 
 # include <stdlib.h>
+# include <stdio.h>
 # include <unistd.h>
 # include <stdarg.h>
 
@@ -115,5 +116,14 @@ void			ft_strcpy(char *dest, char *src);
 char			*cft_strcat_realloc(char *s1, char *s2);
 t_bool			str_contain_c(char *str, char c);
 t_bool			c_is_in_charset(char c, char *charset);
+void			print_black(void);
+void			print_white(void);
+void			print_green(void);
+void			print_red(void);
+void			print_blue(void);
+void			print_cyan(void);
+void			print_purple(void);
+void			print_yellow(void);
+void			print_reset(void);
 
 #endif

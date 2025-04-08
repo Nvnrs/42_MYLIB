@@ -8,6 +8,8 @@ SRC_LIBFT_CUSTOM = ./libft_custom/cft_dec_to_hex.c \
 	./libft_custom/cft_strcat_realloc.c \
 	./libft_custom/str_contain_c.c \
 	./libft_custom/c_is_in_charset.c \
+	./libft_custom/print_colors.c \
+	./libft_custom/print_colors_extra.c \
 
 # %***					***% 
 #		FT_PRINTF 
