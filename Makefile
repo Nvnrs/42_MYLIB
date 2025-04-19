@@ -11,6 +11,7 @@ SRC_LIBFT_CUSTOM = ./libft_custom/cft_dec_to_hex.c \
 	./libft_custom/print_colors.c \
 	./libft_custom/print_colors_extra.c \
 	./libft_custom/ft_strcmp.c \
+	./libft_custom/init_int_to_zero.c \
 
 # %***					***% 
 #		FT_PRINTF 

@@ -6,7 +6,7 @@
 /*   By: nveneros <nveneros@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/15 17:32:04 by nveneros          #+#    #+#             */
-/*   Updated: 2025/04/14 10:17:51 by nveneros         ###   ########.fr       */
+/*   Updated: 2025/04/19 18:11:52 by nveneros         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -126,5 +126,6 @@ void			print_purple(void);
 void			print_yellow(void);
 void			print_reset(void);
 int				ft_strcmp(char *s1, char *s2);
+void			init_int_to_zero(int *nb1, int *nb2, int *nb3, int *nb4);
 
 #endif
